@@ -1,0 +1,30 @@
+name: Discord Commit Logger
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Get commit info
+        run: |
+          echo "MSG=$(git log -1 --pretty=format:%s)" >> $GITHUB_ENV
+          echo "HASH=$(git log -1 --pretty=format:%h)" >> $GITHUB_ENV
+          echo "DATE=$(git log -1 --pretty=format:%ad --date=short)" >> $GITHUB_ENV
+
+      - name: Send commit log to Discord
+        env:
+          WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+          THREAD_ID: "1459032755143839777"
+        run: |
+            curl -sS -X POST \
+            -H "Content-Type: application/json" \
+            -d "{\"content\":\"**[${DATE}]**\n- ${MSG}\n- commit: ${HASH}\"}" \
+            "${WEBHOOK}?thread_id=${THREAD_ID}"
+
