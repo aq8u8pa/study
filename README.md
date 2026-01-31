@@ -14,8 +14,7 @@
 * 1월 23일 이전 웹 파트 전환은 없음
 
 ### 2월 : Web
-* **Flask + HTML** 또는 **Django + React** 중 선택
-* 초보자 비중을 고려해 Flask + HTML 우선 고려
+* [**Flask + HTML**](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world) 기본 학습 
 * 간단한 웹 프로젝트 1개 제작
 * 코드 리뷰 제공 예정
 
