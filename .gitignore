@@ -1,3 +1,4 @@
 test/
 data/
 __pycache__
+.flaskenv
