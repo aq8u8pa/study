@@ -5,7 +5,9 @@
 [2. 템플릿 사용해서 구현하기](#2-템플릿-사용해서-구현하기)  
 [3. 템플릿 상속을 사용해서 구현하기](#3-템플릿-상속을-사용해서-구현하기)  
 
+* [The Flask Mega-Tutorial, Part II: Templates](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-ii-templates)
 * 템플릿을 작성하고 뷰 함수에서 불러와 사용하기  
+
 
 ## 1. 템플릿 없이 구현하기
 ### Mock data

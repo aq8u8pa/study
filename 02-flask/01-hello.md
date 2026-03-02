@@ -6,7 +6,10 @@
 [2. `routes.py`](#2-routespy)  
 [3. `microblog.py`](#3-microblogpy)  
 [4. 실행](#4-실행)  
-* 파일 구조와 뷰 함수의 개념을 이해하고 Hello world를 출력해보기  
+
+* [The Flask Mega-Tutorial, Part I: Hello, World!](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world) 
+* 파일 구조와 뷰 함수의 개념을 이해하고 Hello world를 출력해보기 
+
 
 ## 0. 파일 구조 
 * 이제부터 진행하는 모든 쉘 코드는 가상환경을 활성화한 상태에서 실행한다.

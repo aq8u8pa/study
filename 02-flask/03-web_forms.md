@@ -5,7 +5,8 @@
 [2. Login form](#2-login-form)  
 [3. 템플릿 상속을 사용해서 구현하기](#3-generating-links)  
 
-* login 예제를 통해 웹 폼을 만들고 템플릿과 뷰에서 받아 사용하기 
+* [The Flask Mega-Tutorial, Part III: Web Forms](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-iii-web-forms) 
+* login 예제를 통해 웹 폼을 만들고 템플릿과 뷰에서 받아 사용하기
 * Flask에서 웹 폼을 다루기 위해 터미널에서 Flask-WTF 익스텐션 다운로드
   ```sh
   pip install flask-wtf
